@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Login() {
+export default function LoginForm() {
     return (
         <div className="uk-flex uk-flex-center uk-grid">
             <div className="uk-card uk-card-default">
@@ -17,4 +17,4 @@ export default function Login() {
             </div>
         </div>
     )
-}
+};
