@@ -2,26 +2,60 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-
+import Container from 'react-bootstrap/Container'
 function Homepage() {
 
     return (
-        <Row xs={1} md={2} className="g-4">
-            {Array.from({ length: 4 }).map((_, idx) => (
+        <Container>
+            <Row>
                 <Col>
-                    <Card>holder.js/1
-                        <Card.Img variant="top" src="" />
+                    <Card>
+                        <Card.Img src="../../assets/images/frontPage/dogandcateating.png" />
                         <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>Pet Food</Card.Title>
                             <Card.Text>
-                                This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit longer.
+                                All the perfect pet food
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
-            ))}
-        </Row>
+                <Col>
+                    <Card>
+                        <Card.Img src="../../assets/images/frontPage/dogandcateating.png" />
+                        <Card.Body>
+                            <Card.Title>Pet Food</Card.Title>
+                            <Card.Text>
+                                All the perfect pet food
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <Card>
+                        <Card.Img src="../../assets/images/frontPage/dogandcateating.png" />
+                        <Card.Body>
+                            <Card.Title>Pet Food</Card.Title>
+                            <Card.Text>
+                                All the perfect pet food
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <Card.Img src="../../assets/images/frontPage/dogandcateating.png" />
+                        <Card.Body>
+                            <Card.Title>Pet Food</Card.Title>
+                            <Card.Text>
+                                All the perfect pet food
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+        </Container>
     )
 };
 
